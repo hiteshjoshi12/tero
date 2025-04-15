@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* index.css */
+.btn-gradient-hover {
+    background: linear-gradient(to left, #b91c1c 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s cubic-bezier(0.4,0,0.2,1);
+  }
+  .btn-gradient-hover:hover {
+    background-position: left;
+  }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
