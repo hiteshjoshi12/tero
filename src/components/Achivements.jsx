@@ -25,7 +25,7 @@ const achievements = [
   {
     icon: <FaUserTie className="text-pink-600 w-7 h-7" />,
     title: "Mentorship",
-    desc: "Uplifting spiritual growth under Mahendra Sanghwa (Founder, Divya Sankalp), learning new healing insights.",
+    desc: "Uplifting spiritual growth under our mentorship (Founder, Divya Sankalp), learning new healing insights.",
   },
 ];
 

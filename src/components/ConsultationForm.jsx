@@ -15,26 +15,7 @@ const ConsultationForm = () => {
               />
               {/* Red Curve Overlay */}
               <div className="absolute bottom-0 left-0 w-full h-1/2 bg-red-700 rounded-tl-[200px] rounded-tr-[200px] md:rounded-tr-none md:rounded-bl-[200px] opacity-90 z-10"></div>
-              {/* Call Card */}
-              <div className="relative z-20 flex flex-col items-center justify-center">
-                <div className="bg-white rounded-xl shadow-lg p-6 mt-20 w-64">
-                  <div className="flex items-center justify-center mb-2">
-                    <div className="bg-red-600 text-white rounded-full p-3 text-2xl">
-                      <FaPhoneAlt />
-                    </div>
-                  </div>
-                  <div className="text-xs text-gray-500 text-center mb-1">CALL NOW</div>
-                  <div className="font-bold text-lg text-center mb-1">
-                    10 Minutes Free <br /> for First Session
-                  </div>
-                  <a
-                    href="tel:+919319217537"
-                    className="block text-center text-blue-700 font-semibold text-lg hover:underline"
-                  >
-                    +91 9319 217 537
-                  </a>
-                </div>
-              </div>
+              
             </div>
     
             {/* Right Side: Form */}

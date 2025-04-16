@@ -27,6 +27,13 @@ const imageVariants = {
     transition: { type: "spring", stiffness: 60, damping: 12, delay: 0.7 },
   },
 };
+const openWhatsApp = () => {
+  // Create the WhatsApp URL with encoded message
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=919999753539`;
+  
+  // Open WhatsApp in a new tab
+  window.open(whatsappUrl, "_blank");
+};
 
 const MainSection = () => {
   return (
@@ -46,6 +53,7 @@ const MainSection = () => {
           initial="hidden"
           animate="visible"
           variants={buttonVariants}
+          onClick={openWhatsApp}
         >
           Talk To Me
         </motion.button>

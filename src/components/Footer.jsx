@@ -15,34 +15,24 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">Shveta Sharma</div>
-                  <div className="text-xs tracking-widest">Mind_2heart</div>
+                  <div className="text-xs tracking-widest">Mind-2-heart</div>
                 </div>
               </div>
               {/* Social Icons */}
               <div className="flex gap-4 mt-2">
-                <a href="#" className="bg-red-600 p-2 rounded-full hover:bg-red-700">
+                <a href="https://www.facebook.com/share/1LHfrmg8R6/" className="bg-red-600 p-2 rounded-full hover:bg-red-700">
                   <FaFacebookF />
                 </a>
-                <a href="#" className="bg-red-600 p-2 rounded-full hover:bg-red-700">
+                <a href="https://youtube.com/@divinehealingbyshveta?si=0EDq-I8v-UizvEpW" className="bg-red-600 p-2 rounded-full hover:bg-red-700">
                   <FaYoutube />
                 </a>
-                <a href="#" className="bg-red-600 p-2 rounded-full hover:bg-red-700">
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=3m5il1" className="bg-red-600 p-2 rounded-full hover:bg-red-700">
                   <FaInstagram />
                 </a>
               </div>
             </div>
     
-            {/* Explore */}
-            <div className="flex-1">
-              <h3 className="font-bold text-lg mb-3">Explore</h3>
-              <ul className="space-y-2">
-                <li><a href="#" className="hover:underline">About</a></li>
-                <li><a href="#" className="hover:underline">Services</a></li>
-                <li><a href="#" className="hover:underline">Media</a></li>
-                <li><a href="#" className="hover:underline">Certification</a></li>
-                <li><a href="#" className="hover:underline">Contact</a></li>
-              </ul>
-            </div>
+        
     
             {/* Contact */}
             <div className="flex-1">
@@ -53,7 +43,7 @@ const Footer = () => {
                 </span>
                 <div>
                   <div className="text-sm">Send Email</div>
-                  <div className="text-xs">me@mind2heart.in</div>
+                  <div className="text-xs">shveta.suri0@gmail.com</div>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -62,7 +52,7 @@ const Footer = () => {
                 </span>
                 <div>
                   <div className="text-sm">Call Anytime</div>
-                  <div className="text-xs">+91 93 1921 7537</div>
+                  <div className="text-xs">+91 99 9975 3539</div>
                 </div>
               </div>
             </div>
@@ -79,7 +69,7 @@ const Footer = () => {
                 />
                 <button
                   type="submit"
-                  className="bg-red-600 hover:bg-red-700 text-white rounded-full py-2 font-semibold"
+                 className="btn-gradient-hover text-white w-full sm:w-auto px-8 py-3 rounded-full font-semibold text-lg shadow transition mt-4 cursor-pointer"
                 >
                   Register Yourself
                 </button>

@@ -9,7 +9,7 @@ const products = [
   {
     label: "Pyrite Cluster",
     subtitle: "Golden Path to Prosperity",
-    image: "https://pplx-res.cloudinary.com/image/upload/v1744723449/user_uploads/PZrYhfaawajSTyh/2.jpg",
+    image: "https://pplx-res.cloudinary.com/image/upload/v1744723449/user_uploads/kpwZgNvuNFdbLji/4.jpg",
     tags: ["Clusters", "Prosperity", "Wealth"],
   },
   {
@@ -19,7 +19,7 @@ const products = [
   },
   {
     label: "Crystal Tree",
-    image: "https://pplx-res.cloudinary.com/image/upload/v1744723449/user_uploads/kpwZgNvuNFdbLji/4.jpg",
+    image: "https://pplx-res.cloudinary.com/image/upload/v1744723449/user_uploads/PZrYhfaawajSTyh/2.jpg",
     tags: ["Trees", "Decor", "Positivity"],
   },
   {
@@ -43,7 +43,7 @@ export default function NicheCategory() {
     <section className="w-full bg-[#f9f6f2]  py-16 px-4">
       <div className="max-w-4xl mx-auto text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4 tracking-tight">
-          Niche Category
+        our products
         </h2>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {creativeTags.map((tag, idx) => (
