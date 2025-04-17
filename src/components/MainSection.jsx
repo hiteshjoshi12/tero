@@ -67,11 +67,12 @@ const MainSection = () => {
         <img
           src="/logo.jpg"
           alt="Shveta Sharma"
-          className="rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover border-8 border-red-200"
-        />
-      </motion.div>
-    </section>
-  );
-};
-
-export default MainSection;
+          className="rounded-full w-64 h-64 sm:w-64 sm:h-64 md:w-[450px] md:h-[450px] object-bottom border-8 border-red-300"
+          />
+        </motion.div>
+      </section>
+    );
+  };
+  
+  export default MainSection;
+  
