@@ -8,11 +8,7 @@ const ConsultationForm = () => {
             {/* Left Side: Image & Call Card */}
             <div className="relative flex-1 flex items-center justify-center min-h-[400px]">
               {/* Background Image */}
-              <img
-                src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80"
-                alt="Consultation"
-                className="absolute inset-0 w-full h-full object-cover object-center rounded-l-lg"
-              />
+              
               {/* Red Curve Overlay */}
               <div className="absolute bottom-0 left-0 w-full h-1/2 bg-red-700 rounded-tl-[200px] rounded-tr-[200px] md:rounded-tr-none md:rounded-bl-[200px] opacity-90 z-10"></div>
               
