@@ -65,7 +65,7 @@ const MainSection = () => {
         variants={imageVariants}
       >
         <img
-          src="/Person.png"
+          src="/logo.jpg"
           alt="Shveta Sharma"
           className="rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover border-8 border-red-200"
         />
