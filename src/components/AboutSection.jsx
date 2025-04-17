@@ -28,7 +28,7 @@ const AboutSection = () => {
         <button className="btn-gradient-hover text-white px-8 py-3 rounded-full font-semibold text-lg shadow transition mt-4 cursor-pointer w-full sm:w-auto">Read More</button>
       </div>
       {/* Images */}
-      <div className="flex-1 flex flex-col items-end relative min-h-[320px] sm:min-h-[420px] w-full md:w-auto">
+      <div className="flex-1 flex flex-col items-center relative min-h-[320px] sm:min-h-[420px] w-full md:w-auto">
         {/* Top image */}
         <img
           src="/about-left-1.jpg"
