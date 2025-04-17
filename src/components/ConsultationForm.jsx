@@ -5,15 +5,7 @@ const ConsultationForm = () => {
     return (
         <div className="w-full min-h-screen bg-[#f5f2ef] flex items-center justify-center">
           <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch relative overflow-hidden rounded-lg  bg-white/0">
-            {/* Left Side: Image & Call Card */}
-            <div className="relative flex-1 flex items-center justify-center min-h-[400px]">
-              {/* Background Image */}
-              
-              {/* Red Curve Overlay */}
-              <div className="absolute bottom-0 left-0 w-full h-1/2 bg-red-700 rounded-tl-[200px] rounded-tr-[200px] md:rounded-tr-none md:rounded-bl-[200px] opacity-90 z-10"></div>
-              
-            </div>
-    
+      
             {/* Right Side: Form */}
             <div className="flex-1 flex flex-col justify-center px-6 py-12 bg-[#f5f2ef]">
               <h2 className="text-4xl font-bold mb-6 leading-tight">
