@@ -23,14 +23,14 @@ const products = [
     tags: ["Trees", "Decor", "Positivity"],
   },
   {
-    label: "Malas",
+    label: "Crystal Malas",
     image: "/Crystalmalas.jpg",
-    tags: ["Trees", "Decor", "Positivity"],
+    tags: ["Malas", "Decor", "Positivity"],
   },  
   {
-    label: "Frames",
+    label: "Pyrite Frames",
     image: "/Pyriteframes.jpg",
-    tags: ["Trees", "Decor", "Positivity"],
+    tags: ["Frames", "Decor", "Positivity"],
   },   
 ];
 
@@ -43,7 +43,7 @@ export default function NicheCategory() {
     <section className="w-full bg-[#f9f6f2]  py-16 px-4">
       <div className="max-w-4xl mx-auto text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4 tracking-tight">
-        our products
+        Our Products
         </h2>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           {creativeTags.map((tag, idx) => (
