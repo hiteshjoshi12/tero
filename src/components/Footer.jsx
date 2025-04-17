@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">Shveta Sharma</div>
-                  <div className="text-xs tracking-widest">Mind-2-heart</div>
+             
                 </div>
               </div>
               {/* Social Icons */}
@@ -57,24 +57,7 @@ const Footer = () => {
               </div>
             </div>
     
-            {/* Newsletter */}
-            <div className="flex-1">
-              <h3 className="font-bold text-lg mb-3">Newsletter</h3>
-              <p className="text-sm mb-3">Subscribe our newsletter to get latest updates</p>
-              <form className="flex flex-col gap-2">
-                <input
-                  type="email"
-                  placeholder="Email address"
-                  className="rounded-full px-4 py-2 text-black focus:outline-none"
-                />
-                <button
-                  type="submit"
-                 className="btn-gradient-hover text-white w-full sm:w-auto px-8 py-3 rounded-full font-semibold text-lg shadow transition mt-4 cursor-pointer"
-                >
-                  Register Yourself
-                </button>
-              </form>
-            </div>
+           
           </div>
         </footer>
       );

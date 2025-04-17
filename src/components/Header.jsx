@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 
-const navLinks = [
-  "HOME",
-  "ABOUT ME",
-  "SERVICES",
-  "MEDIA",
-  "CERTIFICATION",
-  "CONTACT",
-];
+
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +10,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-1 py-0.5">
         {/* Logo and Brand */}
         <div className="flex items-center gap-3">
-          <img src="/logo.jpg" alt="Logo" className="h-28 w-28" />
+          <img src="/logoimg.jpg" alt="Logo" className="h-28 w-32" />
           <div>
             <span className="font-bold text-blue-900 text-lg leading-tight">
               Divine Healing
@@ -31,15 +24,7 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8">
-          {navLinks.map((item) => (
-            <a
-              key={item}
-              href="/"
-              className="text-black font-medium hover:text-red-700 transition"
-            >
-              {item}
-            </a>
-          ))}
+          
         </nav>
 
         {/* Contact/CTA */}
@@ -112,16 +97,6 @@ const Header = () => {
       {menuOpen && (
         <div className="md:hidden bg-white shadow-lg border-t border-gray-100">
           <nav className="flex flex-col gap-4 px-6 py-4">
-            {navLinks.map((item) => (
-              <a
-                key={item}
-                href="#"
-                className="text-black font-medium hover:text-red-700 transition"
-                onClick={() => setMenuOpen(false)}
-              >
-                {item}
-              </a>
-            ))}
             <div className="flex items-center gap-2 mt-4">
               <span className="bg-blue-700 text-white rounded-full p-2">
                 <svg

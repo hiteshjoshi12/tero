@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import ConsultationForm from './components/ConsultationForm'
 import NicheCategory from './components/NicheCategory'
 import Achivements from './components/Achivements'
-import ClientTestimonials from './components/ClientTestimonials'
+import ClientTestimonials from './components/ClientTestimonials.JSX'
 const App = () => {
   return (
     <div>
@@ -18,7 +18,6 @@ const App = () => {
       <NicheCategory />
       <Achivements />
       <ClientTestimonials />
-
       <ConsultationForm />
       <Footer />
     </div>

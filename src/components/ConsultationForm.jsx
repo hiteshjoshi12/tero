@@ -5,7 +5,9 @@ const ConsultationForm = () => {
     return (
         <div className="w-full min-h-screen bg-[#f5f2ef] flex items-center justify-center">
           <div className="w-full max-w-7xl flex flex-col md:flex-row items-stretch relative overflow-hidden rounded-lg  bg-white/0">
-      
+            {/* Left Side: Image & Call Card */}
+            
+    
             {/* Right Side: Form */}
             <div className="flex-1 flex flex-col justify-center px-6 py-12 bg-[#f5f2ef]">
               <h2 className="text-4xl font-bold mb-6 leading-tight">
@@ -20,7 +22,7 @@ const ConsultationForm = () => {
                   />
                   <input
                     type="text"
-                    placeholder="Phone"
+                    placeholder="State"
                     className="flex-1 px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-400"
                   />
                 </div>
