@@ -67,7 +67,7 @@ const MainSection = () => {
         <img
           src="/logoimg.jpg"
           alt="Shveta Sharma"
-          className="rounded-full w-64 h-64 sm:w-64 sm:h-64 md:w-[450px] md:h-[450px] object-fill border-8 border-red-300"
+          className="rounded-full w-64 h-64 sm:w-64 sm:h-64 md:w-[450px] md:h-[450px] object-fill border-8 border-red-700 "
         />
       </motion.div>
     </section>

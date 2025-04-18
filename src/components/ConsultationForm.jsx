@@ -47,7 +47,7 @@ const ConsultationForm = () => {
                   type="submit"
                  className="btn-gradient-hover text-white px-8 py-3 rounded-full font-semibold text-lg shadow transition mt-4 cursor-pointer"
                 >
-                  Talk To Me
+                  Submit
                 </button>
               </form>
             </div>

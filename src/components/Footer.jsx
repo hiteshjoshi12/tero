@@ -8,13 +8,9 @@ const Footer = () => {
             {/* Logo & Social */}
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-4">
-                {/* Logo */}
-                <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
-                  {/* Replace with your SVG or logo */}
-                  <span className="text-2xl font-bold">❤️</span>
-                </div>
+              
                 <div>
-                  <div className="font-bold text-lg">Shveta Sharma</div>
+                  <div className="font-bold text-lg">Click the below links</div>
              
                 </div>
               </div>
