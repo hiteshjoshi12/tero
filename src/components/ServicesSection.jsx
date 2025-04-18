@@ -5,29 +5,29 @@ const services = [
   {
     title: "Healing",
     description:
-      "Experience emotional and physical restoration through powerful healing practices..",
+      "We use a wide range of Energy Healing modalities like Reiki, Lama Fera, Buddha Healing, Yogmaya healing to heal our clients.",
     image: "/healing.jpg",
     details: [
-      "Achieving emotional balance",
-      "Physical well-being",
-      "Energy restoration",
-      "Spiritual alignment",
-      "Holistic wellness approach",
-      "Stress reduction",
-      "Improved sleep quality",
-      "Enhanced mental clarity"
+      "Recovery from Illness- to restore the body's ability to recover from sickness",
+      "Heal Relationship with loved ones for mending broken relationships, addressing conflict and rebuilding trust.",
+      "Financial Growth and Success in Business or Job",
+      "Goal Manifestation",
+      "Student healing for improving concentration and developing  interest in studies",
+      "Healing to clear negative emotions",
+      "Addictions and unwanted habits",
+      "Healing for overall Health and wellbeing"
     ]
   },
   {
     title: "Tarot",
     description:
-      "Gain insight and clarity about your life journey with intuitive Tarot card readings..",
+      "Gain insight and clarity about your life journey with intuitive Tarot card readings.",
     image: "/tarot.jpg",
     details: [
       "Achieving a sense of clarity in difficult and emotionally exhausting situations",
       "Understand and nurture relationship problems",
       "Detecting areas of improvement",
-      "Achieve Inner peace",
+      "Achieve inner peace",
       "Gain decision clarity",
       "Guidance for financial goals",
       "Identify areas in need of improvement"
@@ -36,32 +36,32 @@ const services = [
   {
     title: "Hypnotherapy Sessions",
     description:
-      "Unlock your subconscious to overcome challenges through guided hypnotherapy sessions..",
+      "Unlock your subconscious to overcome challenges through guided hypnotherapy sessions.",
     image: "/Hypnotherapy.jpg",
     details: [
-      "Anxiety and Depression",
-      "Fears and Phobias",
-      "Confidence and Self Esteem",
-      "Better Relationships",
-      "Stress Relief",
+      "Anxiety and depression",
+      "Fears and phobias",
+      "Confidence and self-esteem",
+      "Better relationships",
+      "Stress relief",
       "Releasing past traumas",
       "Goal achievement",
-      "Problem resolution through various techniques like Past Life Regression Therapy, Womb Healing, Inner Child Healing"
+      "Problem resolution through techniques like Past Life Regression, Womb Healing, Inner Child Healing"
     ]
   },
   {
     title: "Aura Scanning",
     description:
-      "Discover your energy fields and restore balance with detailed aura scanning techniques..",
+      "Discover your energy fields and restore balance with detailed aura scanning techniques.",
     image: "/aura.jpg",
     details: [
-      "Aura Colour and status",
-      "Negativity in Aura",
+      "Aura colour and status",
+      "Negativity in aura",
       "Psychic attack checking",
       "Any Bandhan dosh",
       "Pitra status or any Dosha",
       "Seven chakra status",
-      "Kuldevi/ kuldev kripa",
+      "Kuldevi/kuldev kripa",
       "Remedies"
     ]
   },
@@ -72,15 +72,14 @@ export default function ServicesSection() {
 
   const openModal = (service) => {
     setSelectedService(service);
-    document.body.style.overflow = "hidden"; // Prevent background scrolling
+    document.body.style.overflow = "hidden";
   };
 
   const closeModal = () => {
     setSelectedService(null);
-    document.body.style.overflow = "auto"; // Re-enable scrolling
+    document.body.style.overflow = "auto";
   };
 
-  // Close modal when clicking outside content
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) {
       closeModal();
@@ -89,12 +88,10 @@ export default function ServicesSection() {
 
   return (
     <div className="w-full bg-white mt-8">
-      {/* Services Section */}
       <div
         className="relative py-10 sm:py-12 px-2 sm:px-4 md:px-8 lg:px-16 bg-cover bg-center"
         style={{ backgroundImage: "url('/testimonial-back.jpg')" }}
       >
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/80 pointer-events-none" />
         <div className="relative max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
@@ -144,8 +141,6 @@ export default function ServicesSection() {
           </div>
         </div>
       </div>
-
-      {/* Modal */}
       <AnimatePresence>
         {selectedService && (
           <motion.div
@@ -162,7 +157,6 @@ export default function ServicesSection() {
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ type: "spring", damping: 20 }}
             >
-              {/* Modal Header with Image */}
               <div className="relative h-48 sm:h-64 w-full">
                 <img
                   src={selectedService.image}
@@ -183,13 +177,9 @@ export default function ServicesSection() {
                   {selectedService.title}
                 </h3>
               </div>
-              
-              {/* Modal Content */}
               <div className="p-6">
                 <p className="text-gray-700 mb-6 text-lg">{selectedService.description}</p>
-                
                 <h4 className="text-xl font-semibold text-blue-800 mb-4">How {selectedService.title} can help you:</h4>
-                
                 <ul className="space-y-3">
                   {selectedService.details.map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
@@ -198,7 +188,6 @@ export default function ServicesSection() {
                     </li>
                   ))}
                 </ul>
-                
                 <div className="mt-8 flex justify-end">
                   <button
                     onClick={closeModal}
